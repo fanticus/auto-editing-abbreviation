@@ -1,0 +1,173 @@
+{
+  "rulesDirectory": [
+      "node_modules/codelyzer"
+  ],
+  "rules": {
+      "align": false,
+      "array-type": false,
+      "arrow-parens": false,
+      "ban": false,
+      "deprecation": {
+          "severity": "warning"
+      },
+      "component-class-suffix": true,
+      "contextual-lifecycle": true,
+      "component-selector": [
+          true,
+          "element",
+          [],
+          "kebab-case"
+      ],
+      "class-name": true,
+      "comment-format": [
+          true,
+          "check-space"
+      ],
+      "curly": false,
+      "directive-class-suffix": true,
+      "directive-selector": [
+          true,
+          "attribute",
+          [],
+          "camelCase"
+      ],
+      "eofline": true,
+      "indent": [
+          true,
+          "spaces"
+      ],
+      "import-destructuring-spacing": true,
+      "interface-name": false,
+      "forin": true,
+      "jsdoc-format": true,
+      "label-position": true,
+      "max-line-length": [
+          true,
+          100
+      ],
+      "member-access": false,
+      "member-ordering": [
+          true,
+          "public-before-private",
+          "static-before-instance",
+          "variables-before-functions"
+      ],
+      "no-any": false,
+      "no-arg": true,
+      "no-attribute-decorator": true,
+      "no-bitwise": true,
+      "no-conditional-assignment": true,
+      "no-consecutive-blank-lines": false,
+      "no-conflicting-lifecycle": true,
+      "no-console": [
+          true,
+          "debug",
+          "info",
+          "time",
+          "timeEnd",
+          "trace"
+      ],
+      "no-construct": true,
+      "no-debugger": true,
+      "no-duplicate-variable": true,
+      "no-empty": false,
+      "no-eval": true,
+      "no-forward-ref": false,
+      "no-redundant-jsdoc": true,
+      "no-require-import": false,
+      "no-trailing-whitespace": true,
+      "no-host-metadata-property": true,
+      "no-input-rename": true,
+      "no-inputs-metadata-property": true,
+      "no-inferrable-types": false,
+      "no-internal-module": true,
+      "no-output-native": true,
+      "no-output-on-prefix": true,
+      "no-output-rename": true,
+      "no-outputs-metadata-property": true,
+      "no-null-keyword": false,
+      "no-non-null-assertion": true,
+      "no-shadowed-variable": true,
+      "no-string-literal": false,
+      "no-switch-case-fall-through": true,
+      "no-unused-expression": true,
+      "no-use-before-declare": true,
+      "no-var-requires": false,
+      "object-literal-key-quotes": [
+          true,
+          "as-needed"
+      ],
+      "object-literal-sort-keys": false,
+      "ordered-imports": false,
+      "one-line": [
+          true,
+          "check-open-brace",
+          "check-catch",
+          "check-else",
+          "check-finally",
+          "check-whitespace"
+      ],
+      "pipe-naming": [
+          true,
+          "camelCase"
+      ],
+      "quotemark": [
+          true,
+          "single",
+          "avoid-escape"
+      ],
+      "radix": true,
+      "typedef": false,
+      "typedef-whitespace": [
+          true,
+          {
+              "call-signature": "nospace",
+              "index-signature": "nospace",
+              "parameter": "nospace",
+              "property-declaration": "nospace",
+              "variable-declaration": "nospace"
+          },
+          {
+              "call-signature": "space",
+              "index-signature": "space",
+              "parameter": "space",
+              "property-declaration": "space",
+              "variable-declaration": "space"
+          }
+      ],
+      "trailing-comma": [
+          true,
+          {
+              "multiline": false,
+              "singleline": "never"
+          }
+      ],
+      "template-banana-in-box": true,
+      "template-no-negated-async": true,
+      "triple-equals": [
+          true,
+          "allow-null-check"
+      ],
+      "use-lifecycle-interface": true,
+      "use-pipe-transform-interface": true,
+      "semicolon": [
+          true,
+          "always"
+      ],
+      "switch-default": true,
+      "variable-name": [
+          true,
+          "check-format",
+          "allow-leading-underscore",
+          "ban-keywords"
+      ],
+      "whitespace": [
+          true,
+          "check-branch",
+          "check-decl",
+          "check-operator",
+          "check-separator",
+          "check-type"
+      ]
+  }
+}

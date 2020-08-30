@@ -1,0 +1,14 @@
+<form
+    class="form"
+    [formGroup]="form">
+    <app-field-textarea
+        formControlName="textareaEditing"
+        placeholder="Enter a list of abbreviations"
+        [control]="form.controls.textareaEditing"
+    ></app-field-textarea>
+    <app-field-textarea
+        formControlName="textareaResult"
+        placeholder="Edited the list"
+        [control]="form.controls.textareaResult"
+    ></app-field-textarea>
+</form>

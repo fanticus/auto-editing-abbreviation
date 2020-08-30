@@ -34,6 +34,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/auto-editing-abbreviation",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
